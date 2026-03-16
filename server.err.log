@@ -954,3 +954,169 @@ ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée 
 127.0.0.1 - - [16/Mar/2026 09:07:55] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
 127.0.0.1 - - [16/Mar/2026 09:07:56] code 404, message File not found
 127.0.0.1 - - [16/Mar/2026 09:07:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:09:45] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:09:45] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:09:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:47] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:10:48] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:10:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:10:52] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:10:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:44] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:12:45] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:12:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:17:36] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:36] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:17:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:38] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:17:39] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:17:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:17:52] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:17:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:41] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:20:42] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:20:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:20:43] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:20:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:23:56] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:23:56] "GET /css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [16/Mar/2026 09:23:56] "GET /images/fotoprincipal.png.png HTTP/1.1" 304 -
+127.0.0.1 - - [16/Mar/2026 09:23:56] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:24:48] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:24:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:01] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 09:29:02] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 09:29:02] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52474)
+Traceback (most recent call last):
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 421, in handle_one_request
+    method()
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 675, in do_GET
+    self.copyfile(f, self.wfile)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 875, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 198, in copyfileobj
+    fdst_write(buf)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 826, in write
+    self._sock.sendall(b)
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+----------------------------------------
+127.0.0.1 - - [16/Mar/2026 10:02:20] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 10:02:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 10:02:20] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:23] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 10:02:23] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61803)
+Traceback (most recent call last):
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 421, in handle_one_request
+    method()
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 675, in do_GET
+    self.copyfile(f, self.wfile)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 875, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 198, in copyfileobj
+    fdst_write(buf)
+  File "C:\Users\jcdia\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 826, in write
+    self._sock.sendall(b)
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+----------------------------------------
+127.0.0.1 - - [16/Mar/2026 10:02:58] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:02:58] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 10:02:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 10:04:40] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:40] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:40] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:40] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:40] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:40] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:41] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:41] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:41] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:04:41] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 10:04:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 10:04:51] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 10:04:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /images/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /images/fotoprincipal.png.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /audio/No%20Crezcas%20Mas%20-%20Tercer%20Cielo.mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /images/invitacion_luciana_princesa%20(1).png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /images/imgae-4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:39] "GET /images/download-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Mar/2026 10:06:40] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 10:06:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Mar/2026 10:06:47] code 404, message File not found
+127.0.0.1 - - [16/Mar/2026 10:06:47] "GET /favicon.ico HTTP/1.1" 404 -
