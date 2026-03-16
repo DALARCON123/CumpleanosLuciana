@@ -1,0 +1,209 @@
+# 🚀 INICIO RÁPIDO - 5 MINUTOS
+
+Si tienes prisa, aquí está lo esencial para hacer funcionar la invitación.
+
+---
+
+## ⏰ En 5 Minutos
+
+### 1️⃣ Abre la página (30 segundos)
+```
+Haz doble clic en: index.html
+```
+
+### 2️⃣ Cambia la foto (1 minuto)
+```
+1. Coloca tu foto en la carpeta: images/
+2. Renómbrala como: luciana.jpg
+3. Listo, aparecerá en la página
+```
+
+### 3️⃣ Cambia la fecha (1 minuto)
+```
+1. Abre index.html con un editor de texto
+2. Busca: data-date="2026-05-23T18:00:00"
+3. Cambia a tu fecha: 2026-06-15T18:00:00
+4. Guarda el archivo
+```
+
+### 4️⃣ Cambia el número WhatsApp (1 minuto)
+```
+1. Abre js/script.js con un editor de texto
+2. Busca: sendWhatsApp('+5491234567890')
+3. Cambia el número: sendWhatsApp('+TU_NUMERO')
+4. Guarda el archivo
+```
+
+### 5️⃣ Edita misa y recepción (1 minuto)
+```
+1. En la página, haz clic en cualquier texto editable
+2. Modifica según necesites
+3. Haz clic afuera para guardar
+```
+
+---
+
+## 🎵 Bonus: Música (Opcional - 1 minuto)
+
+```
+1. Consigue un MP3 elegante (Pixabay, Freepik, etc.)
+2. Colócalo en la carpeta: audio/
+3. Renómbralo como: musica.mp3
+4. Listo, sonará en la página
+```
+
+---
+
+## ✨ ¡Listo para Compartir!
+
+Ahora puedes:
+- ✅ Abrir en el navegador
+- ✅ Compartir el link si lo publicas online
+- ✅ Enviar la carpeta por email
+- ✅ Comprimir en ZIP y compartir por WhatsApp
+
+---
+
+## 📋 Alternativa: Sin Tocar Código
+
+Si no quieres editar código, puedes:
+
+1. **Foto:** Coloca la foto en `images/luciana.jpg`
+2. **Misa y Recepción:** Edita directamente en la página haciendo clic
+3. **Música:** Coloca el MP3 en `audio/musica.mp3`
+
+¡Los cambios se guardan automáticamente!
+
+Para la fecha y WhatsApp, sí necesitas editar código (2 minutos).
+
+---
+
+## 📚 Documentación Completa
+
+Si necesitas más detalles:
+
+- **README.md** - Guía completa (30 min de lectura)
+- **COMO_EDITAR.md** - Pasos detallados (10 min)
+- **CHECKLIST.md** - Verificación antes de compartir (5 min)
+- **FAQ.md** - Respuestas a preguntas (consulta según necesites)
+- **REFERENCIA_CODIGOS.md** - Ejemplos de código (referencia)
+
+---
+
+## 🎯 Lo Más Importante
+
+```
+Tu carpeta CumpleanosLuciana contiene:
+
+📁 CumpleanosLuciana/
+├── index.html ..................... ⭐ Abre esto primero
+├── css/style.css .................. (estilos - no edites)
+├── js/script.js ................... (funciones - no edites)
+├── images/ ....................... (pon tu foto aquí)
+├── audio/ ........................ (pon tu música aquí)
+├── README.md ..................... (lee si tienes dudas)
+├── COMO_EDITAR.md ............... (guía de edición)
+├── FAQ.md ....................... (preguntas frecuentes)
+├── CHECKLIST.md ................. (antes de compartir)
+└── REFERENCIA_CODIGOS.md ....... (ejemplos de código)
+```
+
+---
+
+## 🎁 Características Incluidas
+
+✨ **Diseño Premium Azul Princesa**
+- Colores: Azul pastel, azul cielo, plata, oro
+- 100% responsiva para móvil
+- Animaciones suaves
+
+🎯 **Funcionalidades**
+- Portada con foto grande
+- Cuenta regresiva en tiempo real
+- Información editable de misa y recepción
+- Integración Google Maps
+- Botón WhatsApp directo
+- Música de fondo elegante
+
+📱 **Optimizado Para**
+- Móviles (especialmente WhatsApp)
+- Tablets
+- Desktop
+- Todo navegador moderno
+
+---
+
+## 💡 Tips Rápidos
+
+💾 **Antes de cambiar código:**
+- Duplica la carpeta como copia de seguridad
+- Así tienes versión original si algo sale mal
+
+🔍 **Cuándo edites:**
+- Abre con editor de texto: Notepad++, VS Code (gratis)
+- NO abras con Word (puede dañar el HTML)
+
+🧹 **Si no ves cambios:**
+- Presiona Ctrl + Shift + Delete (limpiar caché)
+- O abre en modo incógnito
+
+📸 **Para la foto:**
+- Usa JPG (más liviano)
+- Mínimo 250x350 píxeles
+- Luciana debe estar centrada
+
+🎵 **Para la música:**
+- Busca música royalty-free
+- Recomendado: instrumental, clásico, piano
+- Máximo 5 MB
+
+---
+
+## 🎉 ¿Y Después?
+
+Una vez personalizado:
+
+1. **Prueba en tu móvil** - Abre, verifica, comparte
+2. **Elige cómo compartir:**
+   - Enlace en Google Maps, Netlify, etc.
+   - O envía la carpeta ZIP por email
+   - O comparte el `index.html` directamente
+3. **Disfruta los "sí voy" por WhatsApp** 🎊
+
+---
+
+## 📞 Soporte Rápido
+
+| Problema | Solución |
+|----------|----------|
+| La foto no aparece | ¿Está en `images/luciana.jpg`? |
+| La música no suena | ¿Hiciste clic en el botón 🔊? |
+| Contador muestra negativos | Cambia a una fecha futura |
+| WhatsApp no abre | Verifica el número con `+` |
+| Se ve extraño en móvil | Abre en modo incógnito |
+| Cambios no se guardaron | Presiona Ctrl+S en el editor |
+
+Más ayuda en **FAQ.md**
+
+---
+
+## ✅ Checklist Ultra-Rápido
+
+Antes de compartir:
+
+- [ ] Foto en `images/luciana.jpg` ✅
+- [ ] Fecha correcta en `index.html` ✅
+- [ ] Número WhatsApp en `js/script.js` ✅
+- [ ] Información misa/recepción editada ✅
+- [ ] Música en `audio/musica.mp3` (opcional) ✅
+- [ ] Probé en navegador y se ve bien ✅
+- [ ] Todos los botones funcionan ✅
+- [ ] Probé en móvil ✅
+
+**¡Completaste? ¡Comparte!** 🎉
+
+---
+
+**Tiempo total: 5-15 minutos**
+
+*Versión: Inicio Rápido v1.0*

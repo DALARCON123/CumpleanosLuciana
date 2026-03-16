@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Invitación digital a los XV años de Luciana">
+    <meta name="theme-color" content="#B4D7E8">
+    
+    <title>Mis XV Años - Luciana</title>
+    
+    <!-- Google Fonts - Tipografías elegantes -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Cormorant+Garamond:wght@300;400;500;600&family=Great+Vibes&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Botón de reproducción de música (fijo en esquina) -->
+    <button class="music-toggle" id="musicToggle" title="Reproducir música">
+        <i class="fas fa-volume-up"></i>
+    </button>
+
+    <!-- Reproductor de música de fondo -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="audio/No Crezcas Mas - Tercer Cielo.mp3" type="audio/mpeg">
+        Tu navegador no soporta reproducción de audio.
+    </audio>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 1: PORTADA PRINCIPAL -->
+    <!-- ============================================ -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Decoración superior -->
+            <div class="decoration-top">
+                <div class="crown-badge">
+                    <img src="images/image.png" alt="Corona" class="crown-svg">
+                </div>
+            </div>
+
+            <!-- EDITAR: Reemplaza 'images/fotoprincipal.png.png' con la foto principal -->
+            <div class="hero-image-container">
+                <img src="images/fotoprincipal.png.png" alt="Luciana" class="hero-image">
+                <div class="image-glow"></div>
+            </div>
+
+            <h1 class="hero-title">Mis XV Años</h1>
+            <h2 class="hero-name">Luciana</h2>
+            
+            <p class="hero-phrase">
+                Con la bendición de Dios y el amor de mi familia, 
+                te invito a celebrar conmigo este día tan especial.
+            </p>
+
+            <button class="btn-primary" onclick="scrollToSection('invitationMessage')">
+                <span>Ver invitación</span>
+                <i class="fas fa-arrow-down"></i>
+            </button>
+
+            <!-- Decoración inferior -->
+            <div class="decoration-bottom">
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 2: MENSAJE DE INVITACIÓN -->
+    <!-- ============================================ -->
+    <section class="confirmation-section" id="invitationMessage">
+        <div class="confirmation-container">
+                        <div class="confirmation-content">
+                <h2 class="section-title">
+                    <i class="fas fa-envelope-open-text"></i>
+                    Invitaci&oacute;n Especial
+                </h2>
+
+                <p id="invitationMainMessage" class="confirmation-text editable" contenteditable="true">
+                    Con la bendici&oacute;n de Dios y el amor que mi familia me ha dado, me siento feliz
+                    de llegar a este momento de mi vida.
+                </p>
+
+                <p id="momSpecialMessage" class="confirmation-text editable" contenteditable="true">
+                    Este momento marca el inicio de una nueva etapa en mi vida, llena de sue&ntilde;os
+                    y nuevas experiencias. Y porque son parte de mi vida, es mi deseo que
+                    compartan conmigo la alegr&iacute;a de mis 15 a&ntilde;os.
+                </p>
+
+                <p id="momSignature" class="message-signature editable" contenteditable="true">
+                    Con cari&ntilde;o, Luciana y mi familia.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 3: CUENTA REGRESIVA -->
+    <!-- ============================================ -->
+    <section class="countdown" id="countdown">
+        <div class="countdown-container">
+            <h2 class="section-title">
+                <i class="fas fa-hourglass-start"></i>
+                Cuenta Regresiva
+            </h2>
+
+            <div class="countdown-display" id="countdownDisplay">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">0</div>
+                    <div class="countdown-label">Días</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">0</div>
+                    <div class="countdown-label">Horas</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">0</div>
+                    <div class="countdown-label">Minutos</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">0</div>
+                    <div class="countdown-label">Segundos</div>
+                </div>
+            </div>
+
+            <!-- EDITAR: Cambia la fecha aquí (Formato: YYYY-MM-DDTHH:MM:SS) -->
+            <!-- Ejemplo: 2026-04-11T18:00:00 para el 11 de abril de 2026 a las 6:00 PM -->
+            <div id="eventDate" data-date="2026-04-11T18:00:00" style="display:none;"></div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 3: MISA DE ACCIÓN DE GRACIAS -->
+    <!-- ============================================ -->
+    <section class="event-section mass-section">
+        <div class="event-container">
+            <h2 class="section-title">
+                <i class="fas fa-church"></i>
+                Misa de Acción de Gracias
+            </h2>
+
+            <div class="venue-stage mass-venue">
+                <iframe
+                    class="venue-map"
+                    title="Mapa de la iglesia"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps?q=6.1524294,-75.3631978&z=17&output=embed">
+                </iframe>
+                <div class="venue-overlay"></div>
+
+                <div class="venue-info-card">
+                    <p class="venue-chip"><i class="fas fa-church"></i> Ceremonia religiosa</p>
+                    <h3 class="venue-title editable" id="churchName" contenteditable="true">Iglesia Católica La Milagrosa</h3>
+
+                    <div class="venue-meta-grid">
+                        <p><i class="fas fa-calendar-alt"></i><strong>Fecha:</strong> <span id="massDate" class="editable" contenteditable="true">Sábado, 11 de Abril de 2026</span></p>
+                        <p><i class="fas fa-clock"></i><strong>Hora:</strong> <span id="massTime" class="editable" contenteditable="true">6:00 PM</span></p>
+                        <p><i class="fas fa-map-marker-alt"></i><strong>Dirección:</strong> <span id="churchAddress" class="editable" contenteditable="true">Iglesia Católica La Milagrosa, Rionegro, Antioquia (6.1524294, -75.3631978)</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EDITAR: Reemplaza 'TU_LATITUD,TU_LONGITUD' con las coordenadas de la iglesia -->
+            <button class="btn-secondary" onclick="window.open('https://www.google.com/maps/search/?api=1&query=6.1524294,-75.3631978', '_blank')">
+                <i class="fas fa-map"></i>
+                Ver en Google Maps
+            </button>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 4: RECEPCIÓN -->
+    <!-- ============================================ -->
+    <section class="event-section reception-section">
+        <div class="event-container">
+            <h2 class="section-title">
+                <i class="fas fa-champagne-glasses"></i>
+                Recepción
+            </h2>
+
+            <div class="venue-stage reception-venue">
+                <iframe
+                    class="venue-map"
+                    title="Mapa de la recepción"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps?q=6.1397573,-75.3513468&z=17&output=embed">
+                </iframe>
+                <div class="venue-overlay"></div>
+
+                <div class="venue-info-card">
+                    <p class="venue-chip"><i class="fas fa-champagne-glasses"></i> Recepción</p>
+                    <h3 class="venue-title editable" id="hallName" contenteditable="true">Mar&iacute;a Luisa</h3>
+
+                    <div class="venue-meta-grid">
+                        <p><i class="fas fa-calendar-alt"></i><strong>Fecha:</strong> <span id="receptionDate" class="editable" contenteditable="true">Sábado, 11 de Abril de 2026</span></p>
+                        <p><i class="fas fa-clock"></i><strong>Hora:</strong> <span id="receptionTime" class="editable" contenteditable="true">7:30 PM</span></p>
+                        <p><i class="fas fa-map-marker-alt"></i><strong>Dirección:</strong> <span id="hallAddress" class="editable" contenteditable="true">María Luisa, Rionegro, Antioquia (6.1397573, -75.3513468)</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EDITAR: Reemplaza 'TU_LATITUD,TU_LONGITUD' con las coordenadas del salón -->
+            <button class="btn-secondary" onclick="window.open('https://www.google.com/maps/place/6%C2%B008%2723.1%22N+75%C2%B021%2704.9%22W/@6.1397691,-75.3514585,3a,75y,146.42h,90.19t/data=!3m7!1e1!3m5!1syah0PBZryakD0XWvAlxSeQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-0.1890152297627452%26panoid%3Dyah0PBZryakD0XWvAlxSeQ%26yaw%3D146.4249569434061!7i16384!8i8192!4m4!3m3!8m2!3d6.1397573!4d-75.3513468?hl=fr&entry=ttu&g_ep=EgoyMDI2MDMxMC4wIKXMDSoASAFQAw%3D%3D', '_blank')">
+                <i class="fas fa-map"></i>
+                Ver en Google Maps
+            </button>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 5: DETALLES IMPORTANTES -->
+    <!-- ============================================ -->
+    <section class="details-section">
+        <div class="details-container">
+            <h2 class="section-title">
+                <i class="fas fa-gem"></i>
+                Detalles Importantes
+            </h2>
+
+            <div class="details-grid">
+                <article class="detail-note-card">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <h3 class="editable" id="giftTitle" contenteditable="true">Lluvia de sobres</h3>
+                    <p class="editable" id="giftText" contenteditable="true">Tu cariño y buenos deseos son el mejor regalo para este día especial.</p>
+                </article>
+
+                <article class="detail-note-card">
+                    <i class="fas fa-shirt"></i>
+                    <h3 class="editable" id="reservedColorTitle" contenteditable="true">Color reservado para la quinceañera</h3>
+                    <p class="editable" id="reservedColorText" contenteditable="true">Azul cielo.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 6: CONFIRMACIÓN DE ASISTENCIA -->
+    <!-- ============================================ -->
+    <section class="confirmation-section">
+        <div class="confirmation-container">
+            <div class="confirmation-content">
+                <h2 class="section-title">
+                    <i class="fab fa-whatsapp"></i>
+                    Confirmación de Asistencia
+                </h2>
+
+                <p class="confirmation-text">
+                    Escribe los nombres de las personas invitadas que asistirán.
+                    Por favor confirma antes del 28 de marzo de 2026.
+                </p>
+
+                <div class="confirmation-form">
+                    <input
+                        type="text"
+                        id="guestNameInput"
+                        class="confirmation-input"
+                        placeholder="Escribe los nombres de quienes asistirán"
+                        autocomplete="off">
+
+                    <button class="btn-whatsapp" onclick="confirmAttendance()">
+                        <i class="fab fa-whatsapp"></i>
+                        Confirmar por WhatsApp
+                    </button>
+                </div>
+
+                <p id="attendanceMessage" class="attendance-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN 7: MENSAJE FINAL -->
+    <!-- ============================================ -->
+    <section class="footer-section">
+        <div class="footer-content">
+            <p class="footer-message">
+                Gracias por acompañarme en uno de los días 
+                más importantes de mi vida.
+            </p>
+            <h3 class="footer-name">Luciana</h3>
+
+            <!-- Decoración final -->
+            <div class="footer-decoration">
+                <div class="sparkle-small"></div>
+                <div class="sparkle-small"></div>
+                <div class="sparkle-small"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+

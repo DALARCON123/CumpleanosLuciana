@@ -1,0 +1,116 @@
+<!-- IMAGEN PLACEHOLDER PARA LA FOTO DE LUCIANA -->
+<!-- 
+Este archivo crea un placeholder elegante en caso de que no tengas foto lista.
+Puedes usarlo temporalmente para ver cómo se vería.
+
+CÓMO USARLO:
+1. Guarda este archivo como: demo-luciana.html
+2. Abre en el navegador
+3. Verás un placeholder elegante con el nombre "Luciana"
+4. Luego reemplaza con tu foto real en images/luciana.jpg
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder - Luciana XV Años</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #B4D7E8 0%, #87CEEB 100%);
+        }
+
+        .placeholder {
+            width: 250px;
+            height: 350px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(212,175,55,0.3));
+            border: 3px solid #E8E8E8;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 10px 40px rgba(180, 215, 232, 0.4);
+            color: #2C3E50;
+            text-align: center;
+        }
+
+        .placeholder i {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            opacity: 0.6;
+        }
+
+        .placeholder p {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .placeholder small {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            font-style: italic;
+        }
+
+        .hint {
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            color: #2C3E50;
+            max-width: 400px;
+        }
+
+        .hint strong {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .hint small {
+            display: block;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <div class="placeholder">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="30" r="15" stroke="#D4AF37" stroke-width="2" opacity="0.8"/>
+                <path d="M20 50C20 40 28 35 40 35C52 35 60 40 60 50L60 60C60 62 58 65 55 65L25 65C22 65 20 62 20 60Z" stroke="#D4AF37" stroke-width="2" fill="none" opacity="0.8"/>
+            </svg>
+            <p>Luciana</p>
+            <small>XV Años 2026</small>
+        </div>
+
+        <div class="hint">
+            <strong>👇 Este es un Placeholder</strong>
+            <small>
+                Reemplaza con tu foto real:<br>
+                <strong>images/luciana.jpg</strong><br>
+                <br>
+                Abre <strong>index.html</strong> para ver la invitación completa
+            </small>
+        </div>
+    </div>
+
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</body>
+</html>
