@@ -85,7 +85,7 @@ body::after {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    opacity: 0.12;
+    opacity: 0.04;
     pointer-events: none;
     z-index: -1;
 }
@@ -147,7 +147,7 @@ body::after {
     body::after {
         width: 78vw;
         height: 72vh;
-        opacity: 0.09;
+        opacity: 0.03;
     }
 
     .music-toggle {
@@ -792,6 +792,16 @@ body::after {
     overflow: hidden;
 }
 
+/* Fondo especifico para Confirmacion de Asistencia */
+#attendanceConfirm .confirmation-content {
+    background:
+        linear-gradient(180deg, rgba(252, 254, 255, 0.84) 0%, rgba(240, 248, 254, 0.66) 46%, rgba(228, 241, 251, 0.56) 100%),
+        url("../images/imgae-4.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, 76% 20%;
+    background-size: cover, 116% auto;
+}
+
 .confirmation-content::before {
     content: '';
     position: absolute;
@@ -1138,6 +1148,11 @@ body::after {
         background-size: cover, 124% auto;
     }
 
+    #attendanceConfirm .confirmation-content {
+        background-position: center, 72% 22%;
+        background-size: cover, 132% auto;
+    }
+
     .confirmation-text {
         font-size: 1.18rem;
     }
@@ -1305,6 +1320,11 @@ body::after {
         padding: 36px 16px 28px;
         background-position: center, 70% 16%;
         background-size: cover, 148% auto;
+    }
+
+    #attendanceConfirm .confirmation-content {
+        background-position: center, 70% 24%;
+        background-size: cover, 154% auto;
     }
 
     .confirmation-container::before,
