@@ -84,8 +84,6 @@ function startCountdown() {
     // Ejemplo: 2026-04-11T18:00:00 = 11 de abril de 2026, 6:00 PM
     const eventDateElement = document.getElementById('eventDate');
     let eventDate = eventDateElement.dataset.date;
-    
-    // Si no está definida, usar fecha por defecto (ejemplo)
     if (!eventDate) {
         eventDate = '2026-04-11T18:00:00';
     }
@@ -94,6 +92,8 @@ function startCountdown() {
 
     function updateCountdown() {
         const now = new Date().getTime();
+    
+    // Si no está definida, usar fecha por defecto (ejemplo)
         const distance = eventTime - now;
 
         if (distance < 0) {

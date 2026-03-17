@@ -705,20 +705,16 @@ body::after {
 
 /* Estilos para campos editables */
 .editable {
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 3px 8px;
-    transition: background-color 0.2s ease;
+    cursor: default;
 }
 
 .editable:hover {
-    background-color: rgba(180, 215, 232, 0.2);
+    background-color: transparent;
 }
 
 .editable:focus {
-    background-color: rgba(180, 215, 232, 0.3);
-    outline: 2px solid var(--color-secondary);
-    outline-offset: 2px;
+    background-color: transparent;
+    outline: none;
 }
 
 /* ====================================================== */
